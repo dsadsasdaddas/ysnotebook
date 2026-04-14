@@ -1,0 +1,10 @@
+{
+  "name": "collab",
+  "private": true,
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "echo 'todo: build collab'",
+    "lint": "echo 'todo: lint collab'",
+    "typecheck": "echo 'todo: typecheck collab'"
+  }
+}
