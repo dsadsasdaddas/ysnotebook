@@ -2,9 +2,6 @@
   "name": "worker",
   "private": true,
   "scripts": {
-    "dev": "node src/worker.js",
-    "build": "echo 'todo: build worker'",
-    "lint": "echo 'todo: lint worker'",
-    "typecheck": "echo 'todo: typecheck worker'"
+    "dev": "echo 'worker dev: placeholder'"
   }
 }

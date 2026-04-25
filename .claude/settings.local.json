@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:3000/docs)",
+      "Bash(curl *)",
+      "Bash(psql -l)",
+      "Bash(psql *)",
+      "Bash(pnpm dev *)",
+      "Bash(python3 -m json.tool)"
+    ]
+  }
+}

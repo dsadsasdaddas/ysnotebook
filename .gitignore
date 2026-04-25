@@ -9,3 +9,14 @@ coverage
 !.env.example
 .DS_Store
 *.log
+
+# local/generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+*.tmp

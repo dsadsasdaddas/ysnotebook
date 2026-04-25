@@ -6,12 +6,9 @@ export default async function DocsLayout({ children }: { children: ReactNode }) 
   const documents = await fetchDocuments();
 
   return (
-    <div className="flex h-screen bg-white">
-      {/* Sidebar for document list */}
+    <div className="flex h-screen bg-bg-primary">
       <Sidebar initialDocuments={documents} />
-      
-      {/* Main content area for editing */}
-      <main className="flex-1 overflow-auto bg-gray-50">
+      <main className="flex-1 overflow-auto bg-bg-primary">
         {children}
       </main>
     </div>
